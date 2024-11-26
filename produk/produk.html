@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="styleProduk.css">
 </head>
 <body>
-    <div class="nav">
-        <ul>
-            <li><a href="/home/index.html">HOME</a></li>
-            <li><a href="/produk/produk.html">PRODUCT</a></li>
-            <li><a href="/aboutUs/aboutUs.html">ABOUT US</a></li>
-            <li><a href="/login/index.html">LOGIN</a></li>
-          </ul>
+    <div class="container_nav">
+        <div class="nav">
+            <ul>
+                <li><a href="/home/index.html">HOME</a></li>
+                <li><a href="/produk/produk.html">PRODUCT</a></li>
+                <li><a href="/aboutUs/aboutUs.html">ABOUT US</a></li>
+                <li><a href="/login/index.html">LOGIN</a></li>
+            </ul>
+            
+            <div class="fav">
+                <a href=""><img src="/icon/heart.png" alt=""></a>
+            </div>
+            <div class="cart">
+                <a href=""><img src="/icon/shopping-cart.png" alt=""></a>
+            </div>
+        </div>
     </div>
 
     <div class="atas">
@@ -23,33 +32,37 @@
     <div class="container1">
         <div class="section1">
             <div class="produk">
-                <img src="/img/Anggrek Blue Saphire.png" alt="">
+                <a class="tombol-fav" href="#"><img src="/icon/heart.png" alt=""></a>
+                <img class="foto" src="/img/Anggrek Blue Saphire.png" alt="">
                 <p class="nama-tanaman">Anggrek Blue Saphire</p>
                 <p class="deskripsi">warna biru yang megah melambangkan langit yang cerah</p>
                 <p class="harga">Rp.50.000/tangkai</p>
-                <input type="submit" value="Add">
+                <input type="submit" value="Add Cart">
+                </div>
                 
-            </div>
             <div class="produk">
-                <img src="/img/Anggrek Bulan.jpg" alt="">
+                <a class="tombol-fav" href="#"><img src="/icon/heart.png" alt=""></a>
+                <img class="foto" src="/img/Anggrek Bulan.jpg" alt="">
                 <p class="nama-tanaman">Anggrek Bulan</p>
                 <p class="deskripsi">Secantik sinar bulan di malam hari</p>
                 <p class="harga">Rp.40.000/tangkai</p>
-                <input type="submit" value="Add">
+                <input type="submit" value="Add Cart">
             </div>
             <div class="produk">
-                <img src="/img/Anggrek Hitam Papua.png" alt="">
+                <a class="tombol-fav" href="#"><img src="/icon/heart.png" alt=""></a>
+                <img class="foto" src="/img/Anggrek Hitam Papua.png" alt="">
                 <p class="nama-tanaman">Anggrek Hitam Papua</p>
                 <p class="deskripsi">angrek hitam dari papua</p>
                 <p class="harga">Rp.200.000/tangkai</p>
-                <input type="submit" value="Add">
+                <input type="submit" value="Add Cart">
             </div>
             <div class="produk">
-                <img src="/img/Anggrek Jamrud.webp" alt="">
+                <a class="tombol-fav" href="#"><img src="/icon/heart.png" alt=""></a>
+                <img class="foto" src="/img/Anggrek Jamrud.webp" alt="">
                 <p class="nama-tanaman">Anggrek Jamrud</p>
                 <p class="deskripsi">warna hijau seperti hijau jamrud</p>
                 <p class="harga">Rp.100.000/tangkai</p>
-                <input type="submit" value="Add">
+                <input type="submit" value="Add Cart">
             </div>
         </div>
     </div>
@@ -59,7 +72,7 @@
           <div class="footer-section">
             <h3>Navigasi</h3>
             <ul>
-                <li><a href="/home/home.html">Home</a></li>
+                <li><a href="/home/index.html">Home</a></li>
                 <li><a href="/produk/produk.html">Produk</a></li>
                 <li><a href="/aboutUs/aboutUs.html">About Us</a></li>
                 <li><a href="/login/index.html">Login</a></li>

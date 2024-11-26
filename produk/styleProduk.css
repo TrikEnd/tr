@@ -43,7 +43,7 @@ iframe {
 .nav a {
     color: rgb(0, 0, 0);
     text-decoration: none; 
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .nav li a:hover {
@@ -61,11 +61,70 @@ iframe {
     background-color:  #4F7836;
     color: white;
 }
+
+
+.fav {
+    position: fixed;
+    margin-left: 90%;
+    margin-right: 40%;
+    margin-top: -10px;
+    background-color: white;
+    padding: 6.3px;
+    border-radius: 50%;
+    width: 25px;
+    padding-top: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.fav img {
+    width: 25px;
+    /* margin-right: 3px;
+    margin-top: 4px;
+    margin-left: 3px; */
+}
+
+.fav:hover {
+    transition: 0.3s;
+    background-color: #ff5e5e;
+    border-radius: 50%;
+}
+
+.fav img:hover {
+}
+
+.cart {
+    position: fixed;
+    margin-left: 90%;
+    margin-right: 30%;
+    margin-top: -10px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+    width: 25px;
+    padding-top: 10px;
+    padding-left: 9px;
+    padding-right: 10px;
+}
+
+.cart img {
+    width: 25px;
+}
+
+.cart:hover {
+    transition: 0.3s;
+    border-radius: 13px;
+    background-color:  #D6C4AC;
+    color: white;
+    border-radius: 50%;
+}
+
 
 
 body {
     font-family: Verdana;
-    background-image: url(/img/background.jpg);
+    background-image: url(/img/background-produk.jpg);
+    background-position-y: -640px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -111,7 +170,7 @@ body {
     border-radius: 8px;
 }
 
-.section1 .produk img {
+.section1 .produk .foto {
     width: 200px;
     border-radius: 8px;
 }
@@ -128,6 +187,37 @@ body {
     font-size: 14px;
 }
 
+.tombol-fav {
+    /* border: solid;
+    border-width: 1px;
+    border-color: #ffffff; */
+    background-color: #ffffff;
+    position:absolute;
+    padding: 7px;
+    width: 20px;
+    padding-top: 10px;
+    padding-left: 9px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 150px;
+    opacity: 0%;
+}
+
+.tombol-fav:hover {
+    background-color: #ff5e5e;
+    transition: 0.2s;
+}
+
+.produk:hover .tombol-fav {
+    opacity: 100%; 
+    transition: 0.2s;
+}
+
+.tombol-fav img{
+    width: 20px;
+}
+
 .produk input {
     width: 100%;
     border-width: 1.3px;
@@ -142,17 +232,6 @@ body {
     color: white;
     transition: 0.2s;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Footer */

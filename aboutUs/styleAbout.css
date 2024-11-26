@@ -51,9 +51,9 @@
         .nav a {
             color: rgb(0, 0, 0);
             text-decoration: none; 
-            font-size: 18px;
+            font-size: 14px;
         }
-
+        
         .nav li a:hover {
             padding: 10px;
             transition: 0.3s;
@@ -61,7 +61,7 @@
             background-color:  #4F7836;
             color: white;
         }
-
+        
         .nav li a:hover {
             padding: 10px;
             transition: 0.3s;
@@ -69,7 +69,68 @@
             background-color:  #4F7836;
             color: white;
         }
+        
+        
+        .fav {
+            position: fixed;
+            margin-left: 90%;
+            margin-right: 40%;
+            margin-top: -10px;
+            background-color: white;
+            padding: 6.3px;
+            border-radius: 50%;
+            width: 25px;
+            padding-top: 10px;
+            padding-left: 9px;
+            padding-right: 9px;
+        }
+        
+        .fav img {
+            width: 25px;
+            /* margin-right: 3px;
+            margin-top: 4px;
+            margin-left: 3px; */
+        }
+        
+        .fav:hover {
+            transition: 0.3s;
+            background-color: #ff5e5e;
+            border-radius: 50%;
+        }
+        
+        .fav img:hover {
+        }
+        
+        .cart {
+            position: fixed;
+            margin-left: 90%;
+            margin-right: 30%;
+            margin-top: -10px;
+            background-color: white;
+            padding: 7px;
+            border-radius: 50%;
+            width: 25px;
+            padding-top: 10px;
+            padding-left: 9px;
+            padding-right: 10px;
+        }
+        
+        .cart img {
+            width: 25px;
+        }
+        
+        .cart:hover {
+            transition: 0.3s;
+            border-radius: 13px;
+            background-color:  #D6C4AC;
+            color: white;
+            border-radius: 50%;
+        }
+        /* .cart img:hover {
 
+            width: 27px;
+            transition: 0.2s;
+        } */
 
 
         /* isi */
