@@ -74,10 +74,11 @@
 
         /* isi */
         .background {
-            background-image: url(/img/background.jpg);
+            background-image: url(/img/background\ _about.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            background-position-y: -200px;
             color: white;
             color: rgb(255, 255, 255);
   
@@ -107,6 +108,7 @@
 
 /* cerita */
         .cerita {
+            font-size: 13px;
             background-color: rgb(245, 245, 245);
             color: black;
             margin-top: 120px;
@@ -144,6 +146,7 @@
         }
 
         .alamat {
+            font-size: 13px;
             margin-top: -160px;
             color: #132a26;
             padding-bottom: 20px;
@@ -162,6 +165,15 @@
         .lokasi .grid1{
             margin-left: 10px;
             width: 670px;
+        }
+
+        .lokasi .grid1 iframe {
+            width: 500px;
+            margin-left: 50px;
+        }
+
+        .lokasi .grid2 {
+            margin-left: -50px;
         }
 
         .lokasi ul {
@@ -188,7 +200,7 @@
         }
 
         .lokasi img {
-            width: 500px;
+            width: 450px;
             border-radius: 20px;
         }
         
@@ -226,7 +238,7 @@
         }
 
         .founder-img {
-            background-color: #4F7836;
+            background-color: #000000;
             position: relative;
             width: fit-content;
             overflow: hidden;
@@ -256,7 +268,7 @@
             left: 50%;
             transform: translateX(-50%);
             color: white;
-            font-size: 50px;
+            font-size: 30px;
             font-weight: bold;
             pointer-events: none;
             transition: opacity 0.3s ease, visibility 0s 0.3s;
@@ -272,6 +284,7 @@
 
         /* Footer */
 .footer {
+    font-size: 13px;
     display: flex;
     background-color: #333; /* Warna latar belakang */
     color: #fff; /* Warna teks */
@@ -321,5 +334,12 @@
     text-decoration: underline;
 }
 
-  
+.copy {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    width: 100%t;
+}
   
