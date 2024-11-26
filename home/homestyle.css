@@ -177,7 +177,6 @@ li a:hover {
 }
 
 a {
-  font-weight:600;
   text-decoration: none;
   color:  black;
 }
@@ -303,14 +302,14 @@ a {
   }
 
   .tenText{
+    margin-bottom: 50px;
     font-size: 1rem;
     color: #242424;
     line-height: 1.6;
   }
   .sections .btn{
-    background-color: rgb(93, 165, 93);
+    background-color: rgb(144, 212, 144);
     color: rgb(0, 0, 0);
-    margin-top: 20px;
     padding: 12px 24px;
     border: none;
     border-radius: 5px;
@@ -321,9 +320,69 @@ a {
   
   .sections .btn:hover {
     color: antiquewhite;
-    background-color: rgb(83, 135, 83);
+    background-color: rgb(53, 71, 53);
   }
 ::-webkit-scrollbar{
     display: none;
 }
 
+/* Footer */
+.footer {
+  font-size: 13px;
+  display: flex;
+  background-color: #333; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  width: 100%; /* Lebar penuh layar */
+  padding: 20px 0; /* Padding atas dan bawah */
+  margin: 0; /* Hilangkan margin */
+  position: relative; /* Menghindari efek tumpang tindih */
+}
+
+/* Konten di dalam footer */
+.footer-content {
+  max-width: 100%; /* Batas maksimal lebar konten */
+  margin: 0 auto; /* Memusatkan konten */
+  display: flex; /* Layout fleksibel */
+  justify-content: space-between; /* Jarak antar kolom */
+  flex-wrap: wrap; /* Responsif */
+  padding: 30px; /* Ruang kiri-kanan */
+}
+
+/* Elemen di dalam footer */
+.footer-section {
+  flex: 1;
+  min-width: 250px; /* Batas minimal lebar */
+}
+
+/* Judul footer */
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+/* List di footer */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  background-color: rgb(32, 32, 32);
+  padding: 20px;
+  width: 100%t;
+}
