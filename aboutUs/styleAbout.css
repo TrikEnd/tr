@@ -1,0 +1,325 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: fit-content;
+            box-sizing: border-box;
+            width: fit-content;
+            font-family: Verdana;
+        }
+
+
+        iframe {
+            border-radius: 20px;
+        }
+          
+
+        .nav {
+            margin-top: 25px;
+            margin-left: 30%;
+            margin-right: 30%;
+            position: fixed;
+            top: 0; 
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 10px; 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+            z-index: 1000; 
+        }
+        
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        
+        .nav li {
+            padding: 0;
+        }
+        
+        
+        .nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none; 
+            font-size: 18px;
+        }
+
+        .nav li a:hover {
+            padding: 10px;
+            transition: 0.3s;
+            border-radius: 13px;
+            background-color:  #4F7836;
+            color: white;
+        }
+
+        .nav li a:hover {
+            padding: 10px;
+            transition: 0.3s;
+            border-radius: 13px;
+            background-color:  #4F7836;
+            color: white;
+        }
+
+
+
+        /* isi */
+        .background {
+            background-image: url(/tr/img/background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            color: rgb(255, 255, 255);
+  
+        }
+
+        .background h1 {
+            color: white;
+            padding-top: 200px;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .background .isi {
+            padding: 20px;
+            margin-top: 200px;
+            background-color: #d6c4ac;
+  
+            /* background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; */
+            /* background-position-y: -1300px; */
+            /* color: white;
+            background-image: url("/tr/img/sgd.jpg");
+            padding-top: 50px;
+            padding-bottom: 50px; */
+        }
+
+/* cerita */
+        .cerita {
+            background-color: rgb(245, 245, 245);
+            color: black;
+            margin-top: 120px;
+            margin-bottom: -200px;
+            padding: 30px;
+            padding-left: 50px;
+        }
+
+        .grid-cerita {
+            margin-top: 20px;
+            display: grid;
+            justify-content: center;
+            justify-items: center;
+            grid-template-columns:  1fr 1fr ;
+            text-align: justify;
+        }
+
+        .cerita h2 {
+            margin-top: 25px;
+        }
+
+        .cerita .grid1 {
+            margin-top: 50px;
+        }
+
+        .cerita img {
+            border-radius: 50px;
+            width: 350px;
+        }
+
+        /* alamat */
+
+        .alamat h1 {
+            color: #132a26;
+        }
+
+        .alamat {
+            margin-top: -160px;
+            color: #132a26;
+            padding-bottom: 20px;
+        }
+
+        .lokasi {
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            display: grid;
+            grid-template-columns: auto auto ;
+            gap: 40px;
+        }
+
+        .lokasi .grid1{
+            margin-left: 10px;
+            width: 670px;
+        }
+
+        .lokasi ul {
+            margin-top: 20px;
+            list-style: none;
+        }
+
+        .lokasi li {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .lokasi li img {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+            margin-top: 4px;
+            color: #132a26;
+        }
+
+        .lokasi .buka {
+            margin-top: 70px;
+            text-align: center;
+        }
+
+        .lokasi img {
+            width: 500px;
+            border-radius: 20px;
+        }
+        
+        .lokasi p img {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+            margin-top: 4px;
+            color: #132a26;
+        }
+
+        .founder {
+            background-color: white;
+            justify-content: center;
+            display: flex;
+            justify-items: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .isi-founder {
+            width: max-content;
+        }
+
+        .isi-founder h2 {
+            margin-bottom: 20px;
+        }
+
+        .dalam {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .founder-img {
+            background-color: #4F7836;
+            position: relative;
+            width: fit-content;
+            overflow: hidden;
+
+        }
+
+        .isi-founder h2 {
+            color: black;
+        }
+        
+        .founder-img img {
+            width: 300px;
+            transition: transform 0.3s ease;
+            display: block;
+            transform-origin: center;
+            height: 300px;
+        }
+        
+        .founder-img img:hover {
+            transform: scale(1.2);
+            opacity: 80%;
+        }
+        
+        .founder-img h1 {
+            position: absolute;
+            top: -55px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            pointer-events: none;
+            transition: opacity 0.3s ease, visibility 0s 0.3s;
+        }
+        
+        .founder-img:hover h1 {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.3s ease, visibility 0s 0s;
+        }
+
+
+
+        /* Footer */
+.footer {
+    display: flex;
+    background-color: #333; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    width: 100%; /* Lebar penuh layar */
+    padding: 20px 0; /* Padding atas dan bawah */
+    margin: 0; /* Hilangkan margin */
+    position: relative; /* Menghindari efek tumpang tindih */
+}
+
+/* Konten di dalam footer */
+.footer-content {
+    max-width: 100%; /* Batas maksimal lebar konten */
+    margin: 0 auto; /* Memusatkan konten */
+    display: flex; /* Layout fleksibel */
+    justify-content: space-between; /* Jarak antar kolom */
+    flex-wrap: wrap; /* Responsif */
+    padding: 30px; /* Ruang kiri-kanan */
+}
+
+/* Elemen di dalam footer */
+.footer-section {
+    flex: 1;
+    min-width: 250px; /* Batas minimal lebar */
+}
+
+/* Judul footer */
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+/* List di footer */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+  
+  
