@@ -74,7 +74,7 @@
 
         /* isi */
         .background {
-            background-image: url(/tr/img/background.jpg);
+            background-image: url(/img/background.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -100,7 +100,7 @@
             background-attachment: fixed; */
             /* background-position-y: -1300px; */
             /* color: white;
-            background-image: url("/tr/img/sgd.jpg");
+            background-image: url("/img/sgd.jpg");
             padding-top: 50px;
             padding-bottom: 50px; */
         }
