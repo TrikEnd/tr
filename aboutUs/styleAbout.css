@@ -3,12 +3,7 @@
             padding: 0;
         }
 
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: fit-content;
-            box-sizing: border-box;
-            width: fit-content;
+        body {
             font-family: Verdana;
         }
 
@@ -352,7 +347,7 @@
     width: 100%; /* Lebar penuh layar */
     padding: 20px 0; /* Padding atas dan bawah */
     margin: 0; /* Hilangkan margin */
-    position: relative; /* Menghindari efek tumpang tindih */
+    position: relative;
 }
 
 /* Konten di dalam footer */
@@ -403,4 +398,88 @@
     padding: 20px;
     width: 100%t;
 }
+
+
+@media (max-width: 480px) {
+
+    .nav {
+        width: auto;
+        margin: auto;
+        border-radius: 0;
+      }
+      .fav {
+        margin-top:  50px;
+        margin-right: 135px;
+    }
+    .cart {
+        margin-top:  50px;
+        margin-right: 30px;
+      }
+
+    .grid-cerita {
+        grid-template-columns:  1fr ;
+    }
+
+    .cerita h2 {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .cerita .grid1 {
+        margin-top: 10px;
+    }
+
+    .cerita img {
+        display: none;
+    }
+
+    .lokasi {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+
+    .lokasi .grid1{
+        margin-left: 10px;
+        width: 0px;
+    }
+
+    .lokasi .grid1 iframe {
+        width: 350px;
+        height: 250px;
+        margin-left: -180px;
+        margin-top: -50px;
+    }
+
+    .lokasi .buka {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .lokasi img {
+        margin-top: -10px;
+        margin-left: 60px;
+        width: 350px;
+        border-radius: 20px;
+    }
+    
+    .founder-img img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .founder-img h1 {      
+        top: -20px;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    .dalam {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-section {
+        margin: 10px;
+    }
+  }
+
   

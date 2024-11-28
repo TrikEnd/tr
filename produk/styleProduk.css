@@ -123,12 +123,17 @@ iframe {
 
 body {
     font-family: Verdana;
+    color: white;
+    bottom: 0;
+}
+
+.background {
     background-image: url(/img/background-produk.jpg);
+    background-color: white;
     background-position-y: -640px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
 }
 
 
@@ -314,7 +319,7 @@ table{
     width: 100%; /* Lebar penuh layar */
     padding: 20px 0; /* Padding atas dan bawah */
     margin: 0; /* Hilangkan margin */
-    position: relative; /* Menghindari efek tumpang tindih */
+    position:static; /* Menghindari efek tumpang tindih */
 }
 
 /* Konten di dalam footer */
