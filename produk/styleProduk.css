@@ -134,6 +134,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 
@@ -369,4 +370,291 @@ table{
     background-color: rgb(32, 32, 32);
     padding: 20px;
     width: 100%t;
+}
+
+
+
+@media (max-width: 1024px) {
+    .fav {
+
+      margin-right: 135px;
+    }
+     .cart {
+
+      margin-right: 30px;
+    }
+    
+    .judul {
+        background-color: white;
+        color: black;
+        position: absolute;
+        width: 900px;
+        padding: 10px;
+        border-radius: 7px;
+    }
+    
+    .judul a {
+        margin-left: 800px;
+        text-decoration: underline;
+    }
+
+    
+    .container1 {
+        background-color: rgb(239, 239, 239);
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        color: black;
+    }
+    
+    .section1 {
+        display: grid;
+        gap: 50px;
+        justify-content: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr ;
+        margin-top: 60px;
+    }
+    
+    .section1 .produk {
+        background-color: rgb(255, 255, 255);
+        width:min-content;
+        padding: 20px;
+        height: 300px;
+        justify-content: center;
+        display: grid;
+        border-radius: 8px;
+    }
+    
+    .tombol-fav {
+        opacity: 100%;
+    }
+    
+}
+
+@media (max-width: 850px) {
+    .judul {
+        background-color: white;
+        color: black;
+        position: absolute;
+        width: 670px;
+        padding: 10px;
+        border-radius: 7px;
+    }
+    
+    .judul a {
+        margin-left: 580px;
+        text-decoration: underline;
+    }
+}
+
+
+@media (max-width: 780px){
+    .background {
+        background-position-y: -280px;
+    }
+  .nav {
+      width: auto;
+      margin: auto;
+      border-radius: 0;
+    }
+    .fav {
+      margin-top:  50px;
+      margin-right: 135px;
+  }
+  .cart {
+      margin-top:  50px;
+      margin-right: 30px;
+    }
+
+    .search .cari {
+        padding: 10px;
+        border-radius: 2px;
+        border-width :1px;
+        width: 200px;
+    }
+    
+    .search button {
+        margin: 20px;
+        padding: 10px;
+        background-color: #4F7836;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        width: 80px;
+    }
+    
+    .search button:hover {
+        cursor:pointer;
+        background-color: #42672c;
+        transition: 0.2s;
+    }
+      
+      .judul {
+          background-color: white;
+          color: black;
+          position: absolute;
+          width: 600px;
+          padding: 10px;
+          border-radius: 7px;
+      }
+      
+      .judul a {
+          margin-left: 520px;
+          text-decoration: underline;
+      }
+  
+      
+      .container1 {
+          background-color: rgb(239, 239, 239);
+          padding: 20px;
+          display: flex;
+          justify-content: center;
+          justify-items: center;
+          color: black;
+      }
+      
+      .section1 {
+          display: grid;
+          gap: 50px;
+          justify-content: center;
+          justify-content: center;
+          grid-template-columns: 1fr 1fr;
+          margin-top: 60px;
+      }
+      
+      .section1 .produk {
+          background-color: rgb(255, 255, 255);
+          width:min-content;
+          padding: 20px;
+          height: 300px;
+          justify-content: center;
+          display: grid;
+          border-radius: 8px;
+      }
+      
+      .tombol-fav {
+          opacity: 100%;
+      }
+      
+      .footer-section {
+        margin: 10px;
+    }
+}
+
+
+
+@media (max-width: 580px){
+    .judul {
+        background-color: white;
+        color: black;
+        position: absolute;
+        width: 520px;
+        padding: 10px;
+        border-radius: 7px;
+    }
+    
+    .judul a {
+        margin-left: 450px;
+        text-decoration: underline;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .background {
+        background-position-y: -10px;
+
+    }
+  .nav {
+      width: auto;
+      margin: auto;
+      border-radius: 0;
+    }
+    .fav {
+      margin-top:  50px;
+      margin-right: 135px;
+    }
+       .cart {
+
+        margin-right: 30px;
+      }
+
+      .search .cari {
+        padding: 10px;
+        border-radius: 2px;
+        border-width :1px;
+        width: 200px;
+    }
+    
+    .search button {
+        margin: 20px;
+        padding: 10px;
+        background-color: #4F7836;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        width: 80px;
+    }
+    
+    .search button:hover {
+        cursor:pointer;
+        background-color: #42672c;
+        transition: 0.2s;
+    }
+      
+      .judul {
+          background-color: white;
+          color: black;
+          position: absolute;
+          width: 300px;
+          padding: 10px;
+          border-radius: 7px;
+      }
+      
+      .judul a {
+          margin-left: 220px;
+          text-decoration: underline;
+      }
+  
+      
+      .container1 {
+          background-color: rgb(239, 239, 239);
+          padding: 20px;
+          display: flex;
+          justify-content: center;
+          justify-items: center;
+          color: black;
+      }
+      
+      .section1 {
+          display: grid;
+          gap: 50px;
+          justify-content: center;
+          justify-content: center;
+          grid-template-columns: 1fr;
+          margin-top: 60px;
+      }
+      
+      .section1 .produk {
+          background-color: rgb(255, 255, 255);
+          width:min-content;
+          padding: 20px;
+          height: 300px;
+          justify-content: center;
+          display: grid;
+          border-radius: 8px;
+      }
+      
+      .tombol-fav {
+          opacity: 100%;
+      }
+      
+      .footer-section {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 250px){
 }

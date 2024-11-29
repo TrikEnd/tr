@@ -433,12 +433,18 @@ a {
 @media (max-width: 768px) {
 
   .nav {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    justify-content: center;
-    padding: 17px;
+    width: auto;
+    margin: auto;
     border-radius: 0;
+  }
+  .fav {
+    margin-right: 135px;
+    margin-top: -15px;
+  }
+
+  .cart {
+    margin-top: -15px;
+    margin-right: 30px;
   }
   .scroll .bunga1  {
     background-attachment: fixed;
@@ -519,19 +525,22 @@ a {
 
 @media (max-width: 480px) {
   .nav {
-    position: fixed;
-  }
-  .nav ul {
-    font-size: 10px; /* Ukuran teks lebih kecil */
+    width: auto;
+    margin: auto;
+    border-radius: 0;
   }
   .fav {
     margin-top:  50px;
     margin-right: 135px;
-}
-.cart {
-    margin-top:  50px;
-    margin-right: 30px;
   }
+     .cart {
+      margin-top:  50px;
+      margin-right: 30px;
+    }
+  .nav ul {
+    font-size: 10px; /* Ukuran teks lebih kecil */
+  }
+
   .div2 {
     padding: 20px 10px;
   }
